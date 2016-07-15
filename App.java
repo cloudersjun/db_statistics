@@ -62,11 +62,11 @@ public class App {
 	}
 
 	public static void db_statistics(int dbno, int dbgroupid) {
-		String url = "jdbc:mysql://l-db" + dbno + "-5.prod.cn2.corp.agrant.cn/";// db
-		String db1url = "jdbc:mysql://l-db1-5.prod.cn2.corp.agrant.cn/";
+		String url = "jdbc:mysql://l-db" + dbno + "-5.prod.cn2./";// db
+		String db1url = "jdbc:mysql://l-db1-5.prod.cn2/";
 		String filename = "E:\\DB" + dbno + ".txt";
 		String user = "dev";
-		String password = "vKITJVGT7dianJMXDNERlcK2zYEbVkutEShK69SFDxTlIJF3SjLlHCbhZcfw";
+		String password = "*******";
 		Connection conn = null;
 		Connection conn2 = null;
 		File file = new File(filename);
